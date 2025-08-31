@@ -1,4 +1,4 @@
-# Global University Data Analysis
+# Data Analysis Global Universities
 
 This repository contains a **Selenium-based Python script** that scrapes university and course information from [Jeduka.com](https://www.jeduka.com) for multiple countries and exports the results to a CSV. The dataset is then analyzed using Python for insights into global higher education trends.
 
