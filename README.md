@@ -34,15 +34,13 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 - **University type analysis** (Public vs Private)
 - **Interactive visualizations** using Plotly for better exploration
 
-
-
-
 ### Dashboard Visualization
 
-![Global University Dashboard](/Images/Overseas_country.png)
-!(/Images/cost_of_university.png)
-!(/Images/exam_accepted.png)
+### Global University Dashboard
 
+![Top Overseas Country](/Images/Overseas_country.png)
+![Cost of University](/Images/cost_of_university.png)
+![Exams Accepted](/Images/exam_accepted.png)
 
 > Explore the interactive Tableau dashboard here:  
 > [Global University Data Dashboard](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
@@ -84,36 +82,38 @@ From the visualization, the **USA holds the first position** as the top overseas
 
 **4. Cost of Master’s Degrees in the USA by Subject**
 
-- Compare tuition fees across different master’s degree subjects in the USA.  
-- Identify the most expensive and most affordable subjects.  
+- Compare tuition fees across different master’s degree subjects in the USA.
+- Identify the most expensive and most affordable subjects.
 
-📌 **Analysis Output:**  
-- The **Master’s in Leadership of Global Operation** is the **most expensive** program.  
-- The **Master of Arts and Communication** holds the **lowest tuition cost** among USA master’s programs. 
+📌 **Analysis Output:**
+
+- The **Master’s in Leadership of Global Operation** is the **most expensive** program.
+- The **Master of Arts and Communication** holds the **lowest tuition cost** among USA master’s programs.
 
 **5. Cost of Bachelor’s Degrees in the USA by Subject**
 
-- Compare tuition fees across different bachelor’s degree subjects in the USA.  
-- Identify the most expensive and most affordable subjects.  
+- Compare tuition fees across different bachelor’s degree subjects in the USA.
+- Identify the most expensive and most affordable subjects.
 
-📌 **Analysis Output:**  
-- The **Bachelor of Science in Electrical Engineering** ranks at the **top position** with the highest tuition fees.  
-- The **Bachelor of Science in Biology** holds the **lowest tuition cost** among USA bachelor’s programs.  
+📌 **Analysis Output:**
+
+- The **Bachelor of Science in Electrical Engineering** ranks at the **top position** with the highest tuition fees.
+- The **Bachelor of Science in Biology** holds the **lowest tuition cost** among USA bachelor’s programs.
 
 **6. Course Duration in the USA by Subject**
 
-- Compare program durations across different universities and subjects.  
-- Helps students plan based on time commitment for degree completion.  
+- Compare program durations across different universities and subjects.
+- Helps students plan based on time commitment for degree completion.
 
 📌 **Analysis Output (Sample):**  
-| Subject                               | University Name                          | Duration        |
+| Subject | University Name | Duration |
 |---------------------------------------|------------------------------------------|-----------------|
-| Master’s in Computer Science          | Stanford University                      | 24 months       |
-| Master’s in Business Administration   | Harvard University                        | 24 months      |
-| Master’s in Electrical Engineering    | Stanford University                       | 36 months      |
-| Bachelor of Science in Biology        | University of pennsylvania                | 48 months      |
-| Master's of Businesss Analytics       | Massachusetts Institute of technology     | 12 months      |
-| Bachelor of Arts in Biological Science| University of Chicago                     | 48 months      |
+| Master’s in Computer Science | Stanford University | 24 months |
+| Master’s in Business Administration | Harvard University | 24 months |
+| Master’s in Electrical Engineering | Stanford University | 36 months |
+| Bachelor of Science in Biology | University of pennsylvania | 48 months |
+| Master's of Businesss Analytics | Massachusetts Institute of technology | 12 months |
+| Bachelor of Arts in Biological Science| University of Chicago | 48 months |
 
 ---
 
@@ -121,49 +121,52 @@ From the visualization, the **USA holds the first position** as the top overseas
 
 **7. Public vs Private Universities**
 
-- Compare the number of **public** and **private** universities across the dataset.  
-- Highlight the **first established institutions** in both categories.  
+- Compare the number of **public** and **private** universities across the dataset.
+- Highlight the **first established institutions** in both categories.
 
-📌 **Analysis Output:**  
-- The **first public university** was established in **Austria** in **1367**, named **University of Vienna**.  
-- The **first private university** was established in the **Netherlands** in **1575**, named **Vilnius University**.  
+📌 **Analysis Output:**
 
-| Type of University | First University (Historical) | Country    | Year |
-|---------------------|-------------------------------|------------|------|
-| Public              | University of Vienna          | Austria    | 1367 |
-| Private             | Vilnius University            | Netherlands| 1575 |
+- The **first public university** was established in **Austria** in **1367**, named **University of Vienna**.
+- The **first private university** was established in the **Netherlands** in **1575**, named **Vilnius University**.
 
-📊 **Trend Analysis:**  
-- Before **1800**, **public universities** were more common, reflecting state-driven education.  
-- After **1800**, the trend shifted — **private universities began to grow more rapidly than public ones**, particularly due to industrialization, globalization, and demand for specialized education.  
+| Type of University | First University (Historical) | Country     | Year |
+| ------------------ | ----------------------------- | ----------- | ---- |
+| Public             | University of Vienna          | Austria     | 1367 |
+| Private            | Vilnius University            | Netherlands | 1575 |
+
+📊 **Trend Analysis:**
+
+- Before **1800**, **public universities** were more common, reflecting state-driven education.
+- After **1800**, the trend shifted — **private universities began to grow more rapidly than public ones**, particularly due to industrialization, globalization, and demand for specialized education.
 - This trend continues today, where **private institutions dominate in number** compared to public ones.
 
 ---
 
 ---
 
-**8. GRE & IELTS Requirements for USA Universities (by Subject)**  
+**8. GRE & IELTS Requirements for USA Universities (by Subject)**
 
-- Many U.S. universities require **GRE** and/or **IELTS** depending on the subject area.  
-- STEM (Science, Technology, Engineering, Mathematics) programs are **more likely** to require **GRE scores**, while non-STEM programs may waive GRE in favor of academic records or professional experience.  
-- **IELTS (or TOEFL)** is required for almost all international applicants unless they come from an English-speaking country.  
+- Many U.S. universities require **GRE** and/or **IELTS** depending on the subject area.
+- STEM (Science, Technology, Engineering, Mathematics) programs are **more likely** to require **GRE scores**, while non-STEM programs may waive GRE in favor of academic records or professional experience.
+- **IELTS (or TOEFL)** is required for almost all international applicants unless they come from an English-speaking country.
 
-📌 **Analysis Output:**  
+📌 **Analysis Output:**
 
-| Subject Area                        | GRE Requirement | IELTS Requirement | Notes |
-|-------------------------------------|-----------------|-------------------|-------|
-| Computer Science / Data Science     | Mandatory       | Mandatory.        | Strong GRE Quant score needed. |
-| Electrical & Mechanical Engineering | Mandatory       | Mandatory         | High GRE Quantitative section expected. |
+| Subject Area                        | GRE Requirement | IELTS Requirement | Notes                                       |
+| ----------------------------------- | --------------- | ----------------- | ------------------------------------------- |
+| Computer Science / Data Science     | Mandatory       | Mandatory.        | Strong GRE Quant score needed.              |
+| Electrical & Mechanical Engineering | Mandatory       | Mandatory         | High GRE Quantitative section expected.     |
 | Business / MBA                      | Sometimes       | Mandatory         | GRE/GMAT may be waived for work experience. |
-| Social Sciences                     | Optional        | Mandatory.        | GRE less common. |
-| Arts & Humanities                   | Rarely          | Mandatory         | Focus more on IELTS/TOEFL. |
-| Public Health / Education           | Optional        | Mandatory         | GRE waived in many universities. |
+| Social Sciences                     | Optional        | Mandatory.        | GRE less common.                            |
+| Arts & Humanities                   | Rarely          | Mandatory         | Focus more on IELTS/TOEFL.                  |
+| Public Health / Education           | Optional        | Mandatory         | GRE waived in many universities.            |
 
-📊 **Key Insights:**  
-- **GRE** is heavily required in **STEM fields**.  
-- **IELTS** is nearly universal across subjects.  
-- Business schools are flexible with GRE/GMAT waivers.  
-- Humanities and social sciences usually emphasize **language proficiency (IELTS)** rather than GRE.  
+📊 **Key Insights:**
+
+- **GRE** is heavily required in **STEM fields**.
+- **IELTS** is nearly universal across subjects.
+- Business schools are flexible with GRE/GMAT waivers.
+- Humanities and social sciences usually emphasize **language proficiency (IELTS)** rather than GRE.
 
 ---
 
