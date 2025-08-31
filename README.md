@@ -38,9 +38,9 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 
 ### Global University Dashboard
 
-![Top Overseas Country](/Images/Overseas_country.png)
-![Cost of University](/Images/cost_of_university.png)
-![Exams Accepted](/Images/exam_accepted.png)
+![Top Overseas Country](/images/Overseas_country.png)
+![Cost of University](/images/cost_of_university.png)
+![Exams Accepted](/images/exam_accepted.png)
 
 > Explore the interactive Tableau dashboard here:  
 > [Global University Data Dashboard](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
