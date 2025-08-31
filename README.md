@@ -21,22 +21,12 @@ The goal of this project is to create a structured dataset for data analysis and
 
 ---
 
+# 🔄 Project Workflow
 
-flowchart LR
-    A[Step 1: Data Collection] --> B[Step 2: Data Cleaning & Storage]
-    B --> C[Step 3: Data Analysis]
-    C --> D[Step 4: Visualization & Dashboard]
-    D --> E[Actionable Insights]
+This project follows a structured pipeline to ensure smooth flow from **data scraping** to **final visualization**.  
+Below is the detailed workflow with sub-steps for each stage.  
 
-    A:::step -->|Scrape using Selenium| B
-    B:::step -->|Export CSV / Excel| C
-    C:::step -->|Python (pandas, matplotlib, seaborn, plotly)| D
-    D:::step -->|Interactive Dashboard (Tableau + Python)| E
-    E:::final
-
-classDef step fill=#4ade80,stroke=#333,stroke-width=1px,color=black;
-classDef final fill=#facc15,stroke=#333,stroke-width=2px,color=black,font-weight:bold;
-
+---
 
 ## 📊 Python Data Analysis
 
@@ -50,8 +40,6 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 - **Top countries for overseas study**
 - **University type analysis** (Public vs Private)
 - **Interactive visualizations** using Plotly for better exploration
-
-
 
 
 ### Dashboard Visualization
