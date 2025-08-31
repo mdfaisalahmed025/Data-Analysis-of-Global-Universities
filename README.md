@@ -1,4 +1,4 @@
-# Data Analysis Global Universities
+# Data Analysis of Global Universities
 
 This repository contains a **Selenium-based Python script** that scrapes university and course information from [Jeduka.com](https://www.jeduka.com) for multiple countries and exports the results to a CSV. The dataset is then analyzed using Python for insights into global higher education trends.
 
@@ -20,6 +20,23 @@ The script automatically collects detailed information about universities and pr
 The goal of this project is to create a structured dataset for data analysis and visualization, enabling prospective students to compare universities and programs across the globe.
 
 ---
+
+
+flowchart LR
+    A[Step 1: Data Collection] --> B[Step 2: Data Cleaning & Storage]
+    B --> C[Step 3: Data Analysis]
+    C --> D[Step 4: Visualization & Dashboard]
+    D --> E[Actionable Insights]
+
+    A:::step -->|Scrape using Selenium| B
+    B:::step -->|Export CSV / Excel| C
+    C:::step -->|Python (pandas, matplotlib, seaborn, plotly)| D
+    D:::step -->|Interactive Dashboard (Tableau + Python)| E
+    E:::final
+
+classDef step fill=#4ade80,stroke=#333,stroke-width=1px,color=black;
+classDef final fill=#facc15,stroke=#333,stroke-width=2px,color=black,font-weight:bold;
+
 
 ## 📊 Python Data Analysis
 
