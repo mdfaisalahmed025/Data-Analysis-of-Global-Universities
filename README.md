@@ -34,16 +34,13 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 - **University type analysis** (Public vs Private)
 - **Interactive visualizations** using Plotly for better exploration
 
-### Dashboard Visualization
+🚀 Quick Links
 
-### Global University Dashboard
+📊 <a href="https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes" style="color:red;">Live Tableau Dashboard - Interactive visualization</a>
 
-![Top Overseas Country](/images/Overseas_country.png)
-![Cost of University](/images/cost_of_university.png)
-![Exams Accepted](/images/exam_accepted.png)
+💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;">GitHub Repository - Source code and data</a>
 
-> Explore the interactive Tableau dashboard here:  
-> [Global University Data Dashboard](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
+📝 <a href="https://www.jeduka.com" style="color:red;">Data Source - Jeduka Website</a>
 
 ## 📊 Tableau Dashboard Analysis
 
@@ -80,6 +77,8 @@ From the visualization, the **USA holds the first position** as the top overseas
 - **Singapore** ranks at the **top position** with the highest tuition fees in Asia.
 - At the **lowest position**, **Korea (Republic)** has the most affordable tuition fees.
 
+[![Top Overseas Country](/images/Overseas_country.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
+
 **4. Cost of Master’s Degrees in the USA by Subject**
 
 - Compare tuition fees across different master’s degree subjects in the USA.
@@ -99,6 +98,8 @@ From the visualization, the **USA holds the first position** as the top overseas
 
 - The **Bachelor of Science in Electrical Engineering** ranks at the **top position** with the highest tuition fees.
 - The **Bachelor of Science in Biology** holds the **lowest tuition cost** among USA bachelor’s programs.
+
+[![Cost of University](/images/cost_of_university.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
 
 **6. Course Duration in the USA by Subject**
 
@@ -160,6 +161,8 @@ From the visualization, the **USA holds the first position** as the top overseas
 | Social Sciences                     | Optional        | Mandatory.        | GRE less common.                            |
 | Arts & Humanities                   | Rarely          | Mandatory         | Focus more on IELTS/TOEFL.                  |
 | Public Health / Education           | Optional        | Mandatory         | GRE waived in many universities.            |
+
+[![Exams Accepted](/images/exam_accepted.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
 
 📊 **Key Insights:**
 
