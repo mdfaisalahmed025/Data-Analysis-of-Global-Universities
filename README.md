@@ -37,7 +37,7 @@ The goal of this project is to create a structured dataset for data analysis and
 - **Final Clean Dataset:** 5,200 records  
 - **Data Quality:** 92.7% retention rate  
 - **Missing Values:** Rows with missing values were removed to ensure data integrity  
-- **Duplicates:** Removed based on doctor name and qualification combination  
+- **Duplicates:** Removed based on university name  and copurse  combination  
 
 
 ## 📊 Python Data Analysis
