@@ -4,6 +4,14 @@ This repository contains a **Selenium-based Python script** that scrapes univers
 
 ---
 
+<h2 style="color:red;">🚀 <b>Quick Links</b></h2>
+
+📊 <a href="https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes" style="color:red;"><b>Live Tableau Dashboard</b></a> – Interactive visualization
+
+💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;"><b>GitHub Repository</b></a> – Source code and data
+
+📝 <a href="https://www.jeduka.com" style="color:red;"><b>Data Source</b></a> – Jeduka Website
+
 ## 🚀 Project Overview
 
 The script automatically collects detailed information about universities and programs, including:
@@ -33,14 +41,6 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 - **Top countries for overseas study**
 - **University type analysis** (Public vs Private)
 - **Interactive visualizations** using Plotly for better exploration
-
-🚀 Quick Links
-
-📊 <a href="https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes" style="color:red;">Live Tableau Dashboard - Interactive visualization</a>
-
-💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;">GitHub Repository - Source code and data</a>
-
-📝 <a href="https://www.jeduka.com" style="color:red;">Data Source - Jeduka Website</a>
 
 ## 📊 Tableau Dashboard Analysis
 
