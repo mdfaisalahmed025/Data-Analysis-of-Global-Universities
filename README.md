@@ -11,6 +11,7 @@ This repository contains a **Selenium-based Python script** that scrapes univers
 💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;"><b>GitHub Repository</b></a> – Source code and data
 
 📝 <a href="https://www.jeduka.com" style="color:red;"><b>Data Source</b></a> – Jeduka Website
+---
 
 ## 🚀 Project Overview
 
@@ -28,6 +29,16 @@ The script automatically collects detailed information about universities and pr
 The goal of this project is to create a structured dataset for data analysis and visualization, enabling prospective students to compare universities and programs across the globe.
 
 ---
+
+
+## 📑 Dataset Validation Results
+
+- **Initial Dataset:** 6,387 records  
+- **Final Clean Dataset:** 5,200 records  
+- **Data Quality:** 92.7% retention rate  
+- **Missing Values:** Rows with missing values were removed to ensure data integrity  
+- **Duplicates:** Removed based on doctor name and qualification combination  
+
 
 ## 📊 Python Data Analysis
 
@@ -78,6 +89,7 @@ From the visualization, the **USA holds the first position** as the top overseas
 - At the **lowest position**, **Korea (Republic)** has the most affordable tuition fees.
 
 [![Top Overseas Country](/images/Overseas_country.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
+---
 
 **4. Cost of Master’s Degrees in the USA by Subject**
 
@@ -100,6 +112,7 @@ From the visualization, the **USA holds the first position** as the top overseas
 - The **Bachelor of Science in Biology** holds the **lowest tuition cost** among USA bachelor’s programs.
 
 [![Cost of University](/images/cost_of_university.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
+---
 
 **6. Course Duration in the USA by Subject**
 
@@ -163,6 +176,8 @@ From the visualization, the **USA holds the first position** as the top overseas
 | Public Health / Education           | Optional        | Mandatory         | GRE waived in many universities.            |
 
 [![Exams Accepted](/images/exam_accepted.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
+
+---
 
 📊 **Key Insights:**
 
