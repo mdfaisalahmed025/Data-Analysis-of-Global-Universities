@@ -31,13 +31,30 @@ The goal of this project is to create a structured dataset for data analysis and
 ---
 
 
-## 📑 Dataset Validation Results
+# Dataset Validation & Processing
+
+This repository contains the cleaned and processed dataset of universities and courses, along with the steps taken to ensure data quality and consistency.
+
+## 📑 Dataset Validation & Processing Results
 
 - **Initial Dataset:** 6,387 records  
-- **Final Clean Dataset:** 5,200 records  
-- **Data Quality:** 92.7% retention rate  
+- **Final Clean Dataset:** 4,223 records  
 - **Missing Values:** Rows with missing values were removed to ensure data integrity  
-- **Duplicates:** Removed based on university name  and copurse  combination  
+- **Duplicates:** Removed based on `university_name` and `course` combination  
+- **Parse and Convert Tuition Fees to USD:** All tuition fees standardized to USD for consistency across countries  
+- **Convert Duration to Months:** Duration values normalized to months for uniformity  
+- **Handling Missing Values:** Imputed or removed missing entries to maintain dataset quality  
+- **Numeric Column Exploration:** Analyzed numeric columns like tuition fees, application fees, and exam scores for outliers, ranges, and distributions  
+- **Categorical Column Exploration:** Analyzed categorical columns like university type, location, and exams accepted for unique values, consistency, and potential normalization  
+
+## 📊 Data Quality Checks
+
+- **Completeness:** Checked for missing values across all columns  
+- **Uniqueness:** Removed duplicates to ensure unique university-course combinations  
+- **Validity:** Verified numeric and categorical columns for valid ranges and formats  
+- **Consistency:** Standardized categorical fields for uniformity (e.g., public/private, location names)  
+- **Integrity:** Ensured relationships between related fields are valid (e.g., location matches country)
+
 
 
 ## 📊 Python Data Analysis
