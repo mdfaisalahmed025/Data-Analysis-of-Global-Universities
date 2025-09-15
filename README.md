@@ -1,4 +1,4 @@
-# Data Analysis Global Universities
+# Data Analysis of Global Universities
 
 This repository contains a **Selenium-based Python script** that scrapes university and course information from [Jeduka.com](https://www.jeduka.com) for multiple countries and exports the results to a CSV. The dataset is then analyzed using Python for insights into global higher education trends.
 
@@ -11,6 +11,7 @@ This repository contains a **Selenium-based Python script** that scrapes univers
 💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;"><b>GitHub Repository</b></a> – Source code and data
 
 📝 <a href="https://www.jeduka.com" style="color:red;"><b>Data Source</b></a> – Jeduka Website
+
 ---
 
 ## 🚀 Project Overview
@@ -31,11 +32,11 @@ The goal of this project is to create a structured dataset for data analysis and
 ---
 
 
-# Dataset Validation & Processing
+## Dataset Validation & Processing
 
 This repository contains the cleaned and processed dataset of universities and courses, along with the steps taken to ensure data quality and consistency.
 
-## 📑 Dataset Validation & Processing Results
+### 📑 Dataset Validation & Processing Results
 
 - **Initial Dataset:** 6,387 records  
 - **Final Clean Dataset:** 4,223 records  
@@ -47,13 +48,37 @@ This repository contains the cleaned and processed dataset of universities and c
 - **Numeric Column Exploration:** Analyzed numeric columns like tuition fees, application fees, and exam scores for outliers, ranges, and distributions  
 - **Categorical Column Exploration:** Analyzed categorical columns like university type, location, and exams accepted for unique values, consistency, and potential normalization  
 
-## 📊 Data Quality Checks
+### 📊 Data Quality Checks
 
 - **Completeness:** Checked for missing values across all columns  
 - **Uniqueness:** Removed duplicates to ensure unique university-course combinations  
 - **Validity:** Verified numeric and categorical columns for valid ranges and formats  
 - **Consistency:** Standardized categorical fields for uniformity (e.g., public/private, location names)  
 - **Integrity:** Ensured relationships between related fields are valid (e.g., location matches country)
+
+
+### 🗂️ Data Schema
+
+| Column Name           |    Description                                  | Data Type    |
+|-----------------------|----------------------------------------------|-------------|
+| university_name       | Name of the university                        | String      |
+| subject               | Name of the course or program                 | String      |
+| duration              | Duration of the course                        | String / Months (converted to numeric) |
+| tuition_fees          | Tuition fees for the course (in USD)         | Float       |
+| application_fees      | Application fees (in USD)                     | Float       |
+| exams_accepted        | Exams accepted for admission (IELTS, TOEFL, etc.) | String / List |
+| university_type       | Type of university (Public / Private / Others)| String      |
+| location              | City or state where the university is located | String      |
+| country               | Country where the university is located      | String      |
+| year_of_establish     | Year the university was established          | Integer     |
+| university_website    | Official website URL of the university       | String      |
+| IELTS                 | IELTS minimum score required                  | Float       |
+| TOEFL                 | TOEFL minimum score required                  | Float       |
+| PTE                   | PTE minimum score required                    | Float       |
+| GRE                   | GRE minimum score required                    | Float       |
+| GMAT                  | GMAT minimum score required                   | Float       |
+| SAT                   | SAT minimum score required                    | Float       |
+
 
 
 
