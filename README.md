@@ -290,5 +290,11 @@ webdriver-manager
 ```bash
 git clone https://github.com/mdfaisalahmed025/global-university-data.git
 cd global-university-data
-Tablaeu Public :https://public.tableau.com/views/Globaluniversitydataanalysis/Dashboard1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ```
+
+
+# 📞 Contact / Author
+
+**Project Maintainer:** Md faisal Ahmed  
+**Portfolio:** [mdfaisalahmed.online](https://mdfaisalahmed.online/)  
+**GitHub:** [@mdfaisalahmed025](https://github.com/mdfaisalahmed025)  
