@@ -185,5 +185,5 @@ exam_list = ["IELTS", "TOEFL", "PTE", "GRE", "GMAT", "SAT"]
 for exam in exam_list:
     df[exam] = df["exams_accepted"].apply(lambda x: "Yes" if exam in str(x) else "No")
 
-df.to_csv("data/all_university.csv", index=False)
-print("✅ Data saved to data/all_university.csv")
+df.to_csv("data/scraped_data.csv", index=False)
+print("✅ Data saved to data/scraped_data.csv")
