@@ -1,4 +1,4 @@
-# Data Analysis of Global Universities
+# Global University Insights
 
 This repository contains a **Selenium-based Python script** that scrapes university and course information from [Jeduka.com](https://www.jeduka.com) for multiple countries and exports the results to a CSV. The dataset is then analyzed using Python for insights into global higher education trends.
 
@@ -11,6 +11,35 @@ This repository contains a **Selenium-based Python script** that scrapes univers
 💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;"><b>GitHub Repository</b></a> – Source code and data
 
 📝 <a href="https://www.jeduka.com" style="color:red;"><b>Data Source</b></a> – Jeduka Website
+
+---
+
+## 🌟 Motivation
+
+In today’s globalized world, pursuing higher education abroad has become an essential step for students seeking academic excellence, international exposure, and career advancement. However, finding the right university and program can be **overwhelming and confusing**, as information is scattered across multiple websites, presented inconsistently, and often lacks clear comparisons.
+
+Students struggle to answer questions like:
+
+- Which countries offer the most cost-effective programs?
+- How long do programs last across different universities and subjects?
+- What are the common exam requirements for international admissions?
+
+The motivation behind this project is to **simplify and centralize global university information**, enabling students to make **data-driven decisions** about their higher education journey. By combining automation, data analysis, and visualization, the project empowers students and educators with **actionable insights**.
+
+---
+
+## 📚 Project Background
+
+**Global University Insights** is a data-driven initiative that leverages **Selenium-based Python scripts** to automatically collect detailed information about universities and programs from [Jeduka.com](https://www.jeduka.com). The collected dataset is then **cleaned, validated, and structured** for analysis.
+
+Key aspects of the project include:
+
+- Gathering information on **university name, type, location, courses, tuition fees, application fees, program duration, accepted exams, and year of establishment**.  
+- Converting and standardizing **tuition fees to USD** and **course durations to months** for uniform analysis.  
+- Creating **calculated flags for exams accepted** (`IELTS`, `TOEFL`, `PTE`, `GRE`, `GMAT`, `SAT`) to enable easier comparison.  
+- Using **Python** (`Pandas`, `Matplotlib`, `Seaborn`, `Plotly`) and **Tableau Public** to generate **interactive visualizations** that highlight global education trends.  
+
+The project provides a **comprehensive overview of higher education worldwide**, offering insights for students, researchers, and policymakers. It helps in understanding **global tuition trends, program durations, university types, and exam requirements**, making it a valuable tool for **data-driven decision-making in international education**.
 
 ---
 
