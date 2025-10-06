@@ -6,7 +6,7 @@ This repository contains a **Selenium-based Python script** that scrapes univers
 
 <h2 style="color:red;">🚀 <b>Quick Links</b></h2>
 
-📊 <a href="https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes" style="color:red;"><b>Live Tableau Dashboard</b></a> – Interactive visualization
+📊 <a href="https://public.tableau.com/app/profile/md.faisal.ahmed/viz/GlobalUniversityDataAnalysisandTrends/COUNTRYANDTUTIONFEES?publish=yes" style="color:red;"><b>Live Tableau Dashboard</b></a> – Interactive visualization
 
 💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;"><b>GitHub Repository</b></a> – Source code and data
 
