@@ -4,17 +4,7 @@ This repository contains a **Selenium-based Python script** that scrapes univers
 
 ---
 
-<h2 style="color:red;">🚀 <b>Quick Links</b></h2>
-
-📊 <a href="https://public.tableau.com/app/profile/md.faisal.ahmed/viz/GlobalUniversityInsights/COUNTRYANDTUTIONFEES?publish=yes" style="color:red;"><b>Live Tableau Dashboard</b></a> – Interactive visualization
-
-💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;"><b>GitHub Repository</b></a> – Source code and data
-
-📝 <a href="https://www.jeduka.com" style="color:red;"><b>Data Source</b></a> – Jeduka Website
-
----
-
-## 🌟 Motivation
+## Motivation
 
 In today’s globalized world, pursuing higher education abroad has become an essential step for students seeking academic excellence, international exposure, and career advancement. However, finding the right university and program can be **overwhelming and confusing**, as information is scattered across multiple websites, presented inconsistently, and often lacks clear comparisons.
 
@@ -28,7 +18,7 @@ The motivation behind this project is to **simplify and centralize global univer
 
 ---
 
-## 📚 Project Background
+## Project Background
 
 **Global University Insights** is a data-driven initiative that leverages **Selenium-based Python scripts** to automatically collect detailed information about universities and programs from [Jeduka.com](https://www.jeduka.com). The collected dataset is then **cleaned, validated, and structured** for analysis.
 
@@ -43,7 +33,7 @@ The project provides a **comprehensive overview of higher education worldwide**,
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The script automatically collects detailed information about universities and programs, including:
 
@@ -60,12 +50,22 @@ The goal of this project is to create a structured dataset for data analysis and
 
 ---
 
+<h2 style="color:red;">🚀 <b>Quick Links</b></h2>
+
+📊 <a href="https://public.tableau.com/app/profile/md.faisal.ahmed/viz/GlobalUniversityInsights/COUNTRYANDTUTIONFEES?publish=yes" style="color:red;"><b>Live Tableau Dashboard</b></a> – Interactive visualization
+
+💻 <a href="https://github.com/mdfaisalahmed025/Data-Analysis-of-Global-Universities" style="color:red;"><b>GitHub Repository</b></a> – Source code and data
+
+📝 <a href="https://www.jeduka.com" style="color:red;"><b>Data Source</b></a> – Jeduka Website
+
+---
+
 
 ## Dataset Validation & Processing
 
 This repository contains the cleaned and processed dataset of universities and courses, along with the steps taken to ensure data quality and consistency.
 
-### 📑 Dataset Validation & Processing Results
+### Dataset Validation & Processing Results
 
 - **Initial Dataset:** 6,387 records  
 - **Final Clean Dataset:** 4,223 records  
@@ -77,7 +77,7 @@ This repository contains the cleaned and processed dataset of universities and c
 - **Numeric Column Exploration:** Analyzed numeric columns like tuition fees, application fees, and exam scores for outliers, ranges, and distributions  
 - **Categorical Column Exploration:** Analyzed categorical columns like university type, location, and exams accepted for unique values, consistency, and potential normalization  
 
-### 📊 Data Quality Checks
+### Data Quality Checks
 
 - **Completeness:** Checked for missing values across all columns  
 - **Uniqueness:** Removed duplicates to ensure unique university-course combinations  
@@ -86,7 +86,7 @@ This repository contains the cleaned and processed dataset of universities and c
 - **Integrity:** Ensured relationships between related fields are valid (e.g., location matches country)
 
 
-### 🗂️ Data Schema
+### Data Schema
 
 | Column Name           |    Description                                  | Data Type    |
 |-----------------------|----------------------------------------------|-------------|
@@ -111,7 +111,7 @@ This repository contains the cleaned and processed dataset of universities and c
 
 
 
-## 📊 Python Data Analysis
+## Python Data Analysis
 
 The exported CSV dataset can be analyzed using Python libraries like `pandas`, `matplotlib`, `seaborn`, and `plotly`. Key analysis includes:
 
@@ -124,95 +124,93 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 - **University type analysis** (Public vs Private)
 - **Interactive visualizations** using Plotly for better exploration
 
-## 📊 Tableau Dashboard Analysis
+---
+
+## Key Findings
+
+### Exploring Tuition Fees Across Nations
+
+![Exploring Tuition Fees Across Nations](./images/Exploring_Tuition_Fees_and_Across_Nations.png)
+
+**Findings:**
+- The analysis reveals a significant variation in tuition fees across countries.  
+- North American and European universities tend to have higher tuition costs, while Asian and African universities generally offer more affordable options.  
+- The data highlights clear regional differences — with the USA, UK, and Australia showing the highest average tuition fees.  
+- Countries such as South Korea, Malaysia, and Thailan provide cost-effective study opportunities for international students.  
+
+**Insights:**
+- Tuition fees directly correlate with the country's economic index and institutional ranking.  
+- Students prioritizing affordability can consider Asian and Eastern European institutions without compromising educational quality.
+
+### Global Study Insights — U.S. Course Duration & Asian Tuition Fees
+
+![Global Study Insights — U.S. Course Duration & Asian Tuition Fees](./images/Screenshot_2025-10-07_at_12.30.55_AM.png)
+
+**Findings:**
+- U.S. courses generally range between **24 to 48 months**, aligning with global master’s and bachelor’s program durations.  
+- Asian countries display **diverse tuition patterns**, with wide variation depending on subject area and institutional type.  
+- **Engineering and medical programs** in Asia show moderate costs with high duration variability.  
+
+**Insights:**
+- The comparison highlights how **course length and tuition are interrelated** — longer programs often lead to higher tuition costs.  
+- Students seeking **shorter, cost-effective programs** can explore Asian universities offering condensed curricula with competitive academic standards.
+
+### Location vs Year of Establishment
+
+![Location vs Year of Establishment](./images/Location_vs_Year_of_Establishment.png)
+
+**Findings:**
+- The visualization shows that **older universities** are primarily concentrated in the **USA and Europe**, reflecting a rich history of higher education in these regions.  
+- Many **Asian and Middle Eastern universities** were established after **1950**, showing the expansion of global education infrastructure in recent decades.  
+
+**Insights:**
+- The establishment trend suggests a **global shift in educational growth**, with developing nations investing heavily in new universities post-2000.  
+- **Emerging regions** are catching up in academic infrastructure, signaling **increasing global competition** in higher education.
+
+### Exam Accepted in Different Subjects and Requirements
+
+![Exam Accepted in Different Subjects and Requirements](./images/exam_accepted.png)
+
+**Findings:**
+- Many U.S. universities require **GRE** and/or **IELTS** depending on the subject area.  
+- **STEM programs** (Science, Technology, Engineering, Mathematics) are the most likely to demand **GRE scores**, while **non-STEM programs** often waive GRE in favor of academic or professional achievements.  
+- **IELTS (or TOEFL)** is a near-universal requirement for international applicants, especially for non-English-speaking countries.  
+- Business programs show flexibility, frequently allowing **GRE/GMAT waivers** for applicants with significant work experience.  
+
+**Insights:**
+- **GRE** remains a critical requirement for **STEM disciplines**, emphasizing strong quantitative skills.  
+- **IELTS** is essential across all programs, demonstrating the importance of language proficiency in academic admissions.  
+- Business, social science, and humanities programs are increasingly shifting toward a **holistic evaluation** process, reducing reliance on standardized tests.  
+- The data suggests a growing trend among universities to **diversify admission pathways**, making global education more accessible to a broader range of students.
+
+
+## Tableau Dashboard Analysis
 
 The dataset is visualized using **Tableau Public**. The interactive dashboard allows exploration of global university trends and provides insights for prospective students.
 
 ### Key Analysis
 
-**1. Top Overseas Study Destinations vs Tuition Fees**
-
+**1. Exploring Tuition Fees Across Nations**
 - Compare countries based on the number of international programs available.
 - Visualize average tuition fees per country to identify cost-effective destinations for overseas study.
-
-📌 **Analysis Output:**  
-From the visualization, the **USA holds the first position** as the top overseas study destination, followed by the **UK** in second place, and **Australia** in third place.
-
-**2. European Countries vs Tuition Fees**
-
 - Compare tuition fees among European countries.
 - Identify countries with the **highest** and **lowest** study costs.
-
-📌 **Analysis Output:**
-
-- **France** holds the **top position** with the highest tuition fees among European countries.
-- **Switzerland** comes next, followed by **Ireland**.
-- At the **bottom position**, **Croatia** has the lowest tuition fees.
-
-**3. Asian Countries vs Tuition Fees**
-
 - Compare tuition fees among Asian study destinations.
 - Identify cost-effective options and premium tuition destinations.
 
-📌 **Analysis Output:**
-
-- **Singapore** ranks at the **top position** with the highest tuition fees in Asia.
-- At the **lowest position**, **Korea (Republic)** has the most affordable tuition fees.
-
-[![Top Overseas Country](/images/Overseas_country.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
----
-
-**4. Cost of Master’s Degrees in the USA by Subject**
-
-- Compare tuition fees across different master’s degree subjects in the USA.
-- Identify the most expensive and most affordable subjects.
-
-📌 **Analysis Output:**
-
-- The **Master’s in Leadership of Global Operation** is the **most expensive** program.
-- The **Master of Arts and Communication** holds the **lowest tuition cost** among USA master’s programs.
-
-**5. Cost of Bachelor’s Degrees in the USA by Subject**
-
-- Compare tuition fees across different bachelor’s degree subjects in the USA.
-- Identify the most expensive and most affordable subjects.
-
-📌 **Analysis Output:**
-
-- The **Bachelor of Science in Electrical Engineering** ranks at the **top position** with the highest tuition fees.
-- The **Bachelor of Science in Biology** holds the **lowest tuition cost** among USA bachelor’s programs.
-
-[![Cost of University](/images/cost_of_university.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
----
-
-**6. Course Duration in the USA by Subject**
+**2. Global Study Insights — U.S. Course Duration & Asian Tuition Fees
 
 - Compare program durations across different universities and subjects.
 - Helps students plan based on time commitment for degree completion.
 
-📌 **Analysis Output (Sample):**  
-| Subject | University Name | Duration |
-|---------------------------------------|------------------------------------------|-----------------|
-| Master’s in Computer Science | Stanford University | 24 months |
-| Master’s in Business Administration | Harvard University | 24 months |
-| Master’s in Electrical Engineering | Stanford University | 36 months |
-| Bachelor of Science in Biology | University of pennsylvania | 48 months |
-| Master's of Businesss Analytics | Massachusetts Institute of technology | 12 months |
-| Bachelor of Arts in Biological Science| University of Chicago | 48 months |
-
 ---
 
----
-
-**7. Public vs Private Universities**
+**7. Location vs Year of Establishment and University Type
 
 - Compare the number of **public** and **private** universities across the dataset.
 - Highlight the **first established institutions** in both categories.
 
-📌 **Analysis Output:**
-
-- The **first public university** was established in **Austria** in **1367**, named **University of Vienna**.
-- The **first private university** was established in the **Netherlands** in **1575**, named **Vilnius University**.
+📌 **Analysis Output:**.
 
 | Type of University | First University (Historical) | Country     | Year |
 | ------------------ | ----------------------------- | ----------- | ---- |
@@ -227,15 +225,13 @@ From the visualization, the **USA holds the first position** as the top overseas
 
 ---
 
----
-
-**8. GRE & IELTS Requirements for USA Universities (by Subject)**
+**8. Exam Accepted in Different Subjects and Requirements
 
 - Many U.S. universities require **GRE** and/or **IELTS** depending on the subject area.
 - STEM (Science, Technology, Engineering, Mathematics) programs are **more likely** to require **GRE scores**, while non-STEM programs may waive GRE in favor of academic records or professional experience.
 - **IELTS (or TOEFL)** is required for almost all international applicants unless they come from an English-speaking country.
 
-📌 **Analysis Output:**
+📌 **Analysis Insights:**
 
 | Subject Area                        | GRE Requirement | IELTS Requirement | Notes                                       |
 | ----------------------------------- | --------------- | ----------------- | ------------------------------------------- |
@@ -247,15 +243,6 @@ From the visualization, the **USA holds the first position** as the top overseas
 | Public Health / Education           | Optional        | Mandatory         | GRE waived in many universities.            |
 
 [![Exams Accepted](/images/exam_accepted.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
-
----
-
-📊 **Key Insights:**
-
-- **GRE** is heavily required in **STEM fields**.
-- **IELTS** is nearly universal across subjects.
-- Business schools are flexible with GRE/GMAT waivers.
-- Humanities and social sciences usually emphasize **language proficiency (IELTS)** rather than GRE.
 
 ---
 
