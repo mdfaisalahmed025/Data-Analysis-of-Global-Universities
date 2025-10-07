@@ -109,21 +109,6 @@ This repository contains the cleaned and processed dataset of universities and c
 | SAT                   | SAT minimum score required                    | Float       |
 
 
-
-
-## Python Data Analysis
-
-The exported CSV dataset can be analyzed using Python libraries like `pandas`, `matplotlib`, `seaborn`, and `plotly`. Key analysis includes:
-
-- **Distribution of program durations**
-- **Tuition fees comparison** by country or university type
-- **Currency conversion of tuition fees** (to USD or other currencies)
-- **Duration conversion** (e.g., months → years)
-- **Heatmap of exam requirements** across different universities
-- **Top countries for overseas study**
-- **University type analysis** (Public vs Private)
-- **Interactive visualizations** using Plotly for better exploration
-
 ---
 
 ## Key Findings
