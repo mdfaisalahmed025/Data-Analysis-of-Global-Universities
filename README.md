@@ -198,14 +198,14 @@ The dataset is visualized using **Tableau Public**. The interactive dashboard al
 - Compare tuition fees among Asian study destinations.
 - Identify cost-effective options and premium tuition destinations.
 
-**2. Global Study Insights — U.S. Course Duration & Asian Tuition Fees
+**2. Global Study Insights — U.S. Course Duration & Asian Tuition Fees**
 
 - Compare program durations across different universities and subjects.
 - Helps students plan based on time commitment for degree completion.
 
 ---
 
-**7. Location vs Year of Establishment and University Type
+**3. Location vs Year of Establishment and University Type**
 
 - Compare the number of **public** and **private** universities across the dataset.
 - Highlight the **first established institutions** in both categories.
@@ -225,7 +225,7 @@ The dataset is visualized using **Tableau Public**. The interactive dashboard al
 
 ---
 
-**8. Exam Accepted in Different Subjects and Requirements
+**4. Exam Accepted in Different Subjects and Requirements**
 
 - Many U.S. universities require **GRE** and/or **IELTS** depending on the subject area.
 - STEM (Science, Technology, Engineering, Mathematics) programs are **more likely** to require **GRE scores**, while non-STEM programs may waive GRE in favor of academic records or professional experience.
@@ -242,15 +242,20 @@ The dataset is visualized using **Tableau Public**. The interactive dashboard al
 | Arts & Humanities                   | Rarely          | Mandatory         | Focus more on IELTS/TOEFL.                  |
 | Public Health / Education           | Optional        | Mandatory         | GRE waived in many universities.            |
 
-[![Exams Accepted](/images/exam_accepted.png)](https://public.tableau.com/app/profile/md.faisal.ahmed/viz/dataanalysisofglobaluniversities/COUNTRYANDTUTIONFEES?publish=yes)
-
----
 
 ---
 
 # Run and Installation of the Project
 
-## 1) Prerequisites
+
+## 1️) Clone Repository
+
+```bash
+git clone https://github.com/mdfaisalahmed025/global-university-data.git
+cd global-university-data
+```
+
+## 2) Prerequisites
 
 - **OS:** Windows / macOS / Linux
 - **Python:** 3.9+ recommended
@@ -268,7 +273,7 @@ You can install them with:
 pip install selenium pandas
 ```
 
-## 2️⃣ Create a virtual environment (recommended)
+## 3) Create a virtual environment (recommended)
 
 **Windows:**
 
@@ -284,7 +289,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-## 3️⃣ Install dependencies
+## 4) Install dependencies
 
 ```bash
 pip install -U pip
@@ -301,16 +306,8 @@ webdriver-manager
 
 ---
 
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/mdfaisalahmed025/global-university-data.git
-cd global-university-data
-```
-
-
 # 📞 Contact / Author
 
-**Project Maintainer:** Md faisal Ahmed  
+**Project Maintainer:** Md Faisal Ahmed  
 **Portfolio:** [mdfaisalahmed.online](https://mdfaisalahmed.online/)  
 **GitHub:** [@mdfaisalahmed025](https://github.com/mdfaisalahmed025)  
