@@ -130,7 +130,7 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 
 ### Exploring Tuition Fees Across Nations
 
-![Exploring Tuition Fees Across Nations](./images/Exploring_Tuition_Fees_and_Across_Nations.png)
+![Exploring Tuition Fees Across Nations](/dashboard_screenshots/Exploring%20Tuition%20Fees%20and%20Across%20Nations.png)
 
 **Findings:**
 - The analysis reveals a significant variation in tuition fees across countries.  
@@ -144,7 +144,7 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 
 ### Global Study Insights — U.S. Course Duration & Asian Tuition Fees
 
-![Global Study Insights — U.S. Course Duration & Asian Tuition Fees](./images/Screenshot_2025-10-07_at_12.30.55_AM.png)
+![Global Study Insights — U.S. Course Duration & Asian Tuition Fees](/dashboard_screenshots/global%20study%20insights%20and%20usa%20course%20duration.png)
 
 **Findings:**
 - U.S. courses generally range between **24 to 48 months**, aligning with global master’s and bachelor’s program durations.  
@@ -157,7 +157,7 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 
 ### Location vs Year of Establishment
 
-![Location vs Year of Establishment](./images/Location_vs_Year_of_Establishment.png)
+![Location vs Year of Establishment](/dashboard_screenshots/Location%20vs%20Year%20of%20Establishment%20.png)
 
 **Findings:**
 - The visualization shows that **older universities** are primarily concentrated in the **USA and Europe**, reflecting a rich history of higher education in these regions.  
@@ -169,7 +169,7 @@ The exported CSV dataset can be analyzed using Python libraries like `pandas`, `
 
 ### Exam Accepted in Different Subjects and Requirements
 
-![Exam Accepted in Different Subjects and Requirements](./images/exam_accepted.png)
+![Exam Accepted in Different Subjects and Requirements](/dashboard_screenshots/Exam%20Accepted%20in%20Different%20Subject%20and%20Establishment%20.png)
 
 **Findings:**
 - Many U.S. universities require **GRE** and/or **IELTS** depending on the subject area.  
