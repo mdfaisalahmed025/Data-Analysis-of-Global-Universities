@@ -1,6 +1,6 @@
 # Global University Insights
 
-This repository contains a **Selenium-based Python script** that scrapes university and course information from [Jeduka.com](https://www.jeduka.com) for multiple countries and exports the results to a CSV. The dataset is then analyzed using Python for insights into global higher education trends.
+Analyzes global university data to uncover tuition, exam requirements, establishment year, and education trends.
 
 ---
 
@@ -233,11 +233,11 @@ The dataset is visualized using **Tableau Public**. The interactive dashboard al
 # Run and Installation of the Project
 
 
-## 1️) Clone Repository
+## 1) Clone Repository
 
 ```bash
-git clone https://github.com/mdfaisalahmed025/global-university-data.git
-cd global-university-data
+https://github.com/mdfaisalahmed025/Global-University-Insights.git
+cd global-university-Insights
 ```
 
 ## 2) Prerequisites
@@ -246,17 +246,6 @@ cd global-university-data
 - **Python:** 3.9+ recommended
 - **Google Chrome:** Installed
 - **ChromeDriver:** Must be compatible with your installed Chrome version (or use `webdriver-manager`, see below)
-
-### Python packages
-
-- `selenium`
-- `pandas`
-
-You can install them with:
-
-```bash
-pip install selenium pandas
-```
 
 ## 3) Create a virtual environment (recommended)
 
