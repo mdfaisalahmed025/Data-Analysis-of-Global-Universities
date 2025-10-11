@@ -270,14 +270,6 @@ pip install -U pip
 pip install -r requirements.txt
 ```
 
-> If you don’t have a `requirements.txt`, create one with:
-
-```text
-selenium
-pandas
-webdriver-manager
-```
-
 ---
 
 # 📞 Contact / Author
